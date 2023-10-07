@@ -3,6 +3,5 @@ database.ini
 note.txt
 /dataset
 *.zip
-ffmpeg-6.0.tar.xz
-/ffmpeg-6.0
+*.7z
 /.ipynb_checkpoints
