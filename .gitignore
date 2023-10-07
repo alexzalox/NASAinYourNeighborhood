@@ -1,5 +1,8 @@
-/NASA
+/envNASA
 database.ini
 note.txt
 /dataset
 *.zip
+ffmpeg-6.0.tar.xz
+/ffmpeg-6.0
+/.ipynb_checkpoints
