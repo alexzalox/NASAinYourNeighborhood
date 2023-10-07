@@ -5,3 +5,6 @@ note.txt
 *.zip
 *.7z
 /.ipynb_checkpoints
+*.py
+*.mp4
+/test
