@@ -1,49 +1,59 @@
+# [Top 20 countries with the highest cumulative pm2.5 from 1980 to 2022](https://www.youtube.com/watch?v=Uv0lIyd7y8w) 
+
+
 # Name and Summary
 ## Project Name :
-- An Analysis of the Relationship between Global PM2.5 Levels, GDP, and Population.
+- A Global Ranking Observation on Cumulative PM2.5 Level
 
 ## Summary :
 - We use Python to generate a bar chart race of accumulated PM2.5 in each country from 1980 to 2022. By taking reference of this data, the United Nations and NASA can enact international conventions to regulate PM2.5 emissions, which is important because the particles are smaller than a hair grain so that they can pass through the alveoli and circulate the human body via blood flow. The impact of PM2.5 on physical health and ecology systems is nontrivial.
 
 # Project Links
 ## Project Demo
-- 
+- https://youtu.be/Vi2HLlf15gQ
+
 ## Final Project
 - https://github.com/alexzalox/NASAinYourNeighborhood
 
-## Top 20 countries with the highest cumulative pm2.5 from 1980 to 2022
-- https://www.youtube.com/watch?v=Uv0lIyd7y8w
 
 # Project Information
 ## Project Details
 - What exactly does it do? 
-    - Analyzing the Correlation Between PM2.5 Levels, GDP, and Population Across Countries Worldwide.
+    -  Observes the cumulative ranking of PM2.5 using each country’s data.
+
 - How does it work?
-    -  
-    -
-    - 
+   - `Top 20 countries with the highest cumulative PM2.5 from 1980 to 2022`
+        - Runs Data_Processing.ipynb on Colab
+        - Data processing :
+            - Converts date string to datetime object
+            - Creates a cumulative dataframe
+            - Removes the underscores in country names
+        - Removes countries that never ranked in the top 20
+        - Makes a racing bar chart
+
 - What do you hope to achieve? 
-    - We aspire to raise global awareness about PM2.5, emphasizing the invisible assailants in our air that are detrimentally impacting our respiratory health.
-    - Through this project, we aim to garner increased attention from the United Nations towards the issue of air pollution.
+    - We hope to raise global awareness about PM2.5, which are invisible killers damaging our lungs.
+    - Through this project, we call on the United Nations to pay greater attention to the issue of air pollution.
+
 
 - What tools, coding languages, hardware, or software did you use to develop your project?
-    - tools:
+    - Tools:
         - github
         - colab
         - jupyter notebook
-        - Youtube
-    - coding languages
+        - youtube
+    - Coding languages
         - python : pandas, ipython-autotime, bar_chart_race
-    - software :
-        - power BI
 
 
-- The Significance of NASA Data in Our Study.
-    - Utilizing the NASA PM2.5 database as a foundation and supplementing it with global population and GDP data variables, we analyze whether PM2.5 is positively correlated with these dependent variables. It is widely acknowledged that economic development and population size are crucial factors in a nation's progress. We aim to contribute to global environmental improvement through a data-driven analytical approach, offering tailored reference indicators to nations for fostering positive development.
+- What is the significance of NASA data?
+    - Using the MERRA PM2.5 data from NASA GES DISC, we take a data science approach to observe the emissions of each country, and hope to provide adaptable references for international standards, and finally a positive contribution to global environment.
+
 
 - What is PM2.5?
     - There are many polutions in the air, one of them is dust-like, granular substances known as particular matters (PM). PMs differ in diameters; for those smaller than 2.5 micrometers (μm) are known as PM2.5, which is measured in μg/m3.
 
+    - PM2.5 is thinner than a hair grain, and can pass through the alveoli in our lungs and enter our blood flow. Therefore, the impact of PM2.5 on physical health and the ecology systems is nontrivial.
 
 ## Use of Artificial Intelligence
 - we used [ChatGPT](https://chat.openai.com/) to write code, translate and generate technical documentation.
